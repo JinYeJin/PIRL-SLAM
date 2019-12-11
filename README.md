@@ -61,17 +61,13 @@ vi custom.yaml```
 `Videotofile.py [videopath] [imagefolder] orb-slam2`
 
 videopath에 영상의 경로를 적어주고, imagefolder에 이미지 시퀀스가 생성되길 원하는 폴더의 경로를 적어줍니다. mono_tum 파일을 이용하여 실행되기 위해서 TUM Dataset을 따르기에
-```
-rgb/
-rgb.txt
-```
+```rgb/
+rgb.txt```
 와 같은 구조로 파일들이 생성됩니다. rgb 안에는 이미지 시퀀스가 생성되고, rgb.txt는 rgb파일 안의 이미지들의 타임라인을 나타냅니다.
 
 ### 예제 실행
-```
-cd ORB_SLAM2
-./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/custom.yaml PATH_TO_SEQUENCE_FOLDER
-```
+```cd ORB_SLAM2
+./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/custom.yaml PATH_TO_SEQUENCE_FOLDER```
 
 `PATH_TO_SEQUENCE_FOLDER`에 `rgb`폴더의 상위 폴더를 적으면 됩니다.
 
