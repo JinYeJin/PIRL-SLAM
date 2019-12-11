@@ -5,8 +5,8 @@
 ## Contents  
 - [Summary](#summary)
 - [Environment](#environment)
-- [Building ORB-SLAM2 Library](#building orb-slam2 library)
-- [Monocular Example](#monocular Example)
+- [Building ORB-SLAM2 Library](#building-orb-slam2-library)
+- [Monocular Example](#monocular example)
 - [Weekly Record](https://github.com/JinYeJin/legendary-octo-adventure/wiki/Development-Record)
 - [Reference](https://github.com/JinYeJin/legendary-octo-adventure/wiki/Reference)
 
