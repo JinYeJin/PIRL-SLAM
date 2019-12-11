@@ -4,6 +4,9 @@
 
 ## Contents  
 - [Summary](#summary)
+- [Environment](#environment)
+- [Building ORB-SLAM2 Library](#building orb-slam2 library)
+- [Monocular Example](#monocular Example)
 - [Weekly Record](https://github.com/JinYeJin/legendary-octo-adventure/wiki/Development-Record)
 - [Reference](https://github.com/JinYeJin/legendary-octo-adventure/wiki/Reference)
 
@@ -33,7 +36,7 @@ Ubuntu 16.04 (Debian) 기준으로 [Anaconda Official Documentation](https://doc
 `conda install -c menpo opencv3`
 
 
-## Building ORB-SLAM2 library
+## Building ORB-SLAM2 Library
 
 ORB-SALM2의 [build과정](https://github.com/raulmur/ORB_SLAM2#2-prerequisites)을 따릅니다.
 
@@ -79,8 +82,3 @@ cd ORB_SLAM2
 ```
 
 `PATH_TO_SEQUENCE_FOLDER`에 `rgb`폴더의 상위 폴더를 적으면 됩니다.
-
-
-
-
-<h4 align="center"> Project DeepSLAM </h4>
